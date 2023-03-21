@@ -2,6 +2,8 @@
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 .all {
@@ -48,6 +50,7 @@
 }
 
 .affairs {
+    margin-left: 70px;
     display: flex;
     gap: 17px;
     flex-wrap: wrap;
