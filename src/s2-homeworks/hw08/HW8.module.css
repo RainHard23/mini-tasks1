@@ -1,23 +1,39 @@
 .item {
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+
 }
 
 .buttonsContainer {
 }
 
 .container {
+
 }
 
 .thead {
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
 .ageCol {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
 }
