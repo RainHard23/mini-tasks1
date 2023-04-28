@@ -11,8 +11,8 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
         }
         case 'check': {
 
-            let kek = state.filter(i => i.age > action.payload)
-            return kek.sort((a, b) => a.age - b.age)
+
+            return state.filter(u=>u.age > 18)
 
             // need to fix
         }
