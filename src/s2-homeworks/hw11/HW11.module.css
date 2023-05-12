@@ -1,7 +1,9 @@
 .container {
+    color: #DDD
 }
 
 .wrapper {
+    display: flex;
 }
 
 .number {
