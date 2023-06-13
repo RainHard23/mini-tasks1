@@ -1,20 +1,36 @@
 .input:focus {
+    outline:none;
 }
 
 .input {
+    height: 36px;
+    width: 372px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .inputWrapper {
+    display: grid;
+
+
 }
 
 .superInput {
 }
 
 .errorInput {
+    border:1px solid #cc0000;
 }
 
 .errorInput:focus {
+    outline:none;
 }
 
 .error {
+    margin-bottom: 5px;
+    color: #CC1439;
+    width: 25px;
+    height: 12px;
+    font-weight: 400;
+    font-size: 10px;
 }
