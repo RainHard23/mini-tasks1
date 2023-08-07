@@ -52,11 +52,11 @@ const HW15 = () => {
         getTechs(params)
             .then((res) => {
                 // делает студент
-
+                setLoading(false)
                 if (res)  {
                     setTechs(res.data.techs)
                     setTotalCount(res.data.totalCount)
-                    setLoading(false)
+
                     console.log(res)
 
                 }
@@ -72,8 +72,9 @@ const HW15 = () => {
         // делает студент
         setPage(newPage)
         setCount(newCount)
-        sendQuery({page: newPage, count: newCount, sort})
         setSearchParams({page: newPage.toString(), count: newCount.toString()})
+        sendQuery({page: newPage, count: newCount, sort})
+
         // setPage(
         // setCount(
 
